@@ -7,7 +7,7 @@
 class Solution {
 public:
     
-    void func(TreeNode * root, int & prev, int & ans){
+    void func(TreeNode * root, int & prev, int & ans){               //inorder traversal
         if(root){
             func(root->left, prev, ans);
             
