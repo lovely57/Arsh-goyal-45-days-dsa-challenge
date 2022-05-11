@@ -1,5 +1,6 @@
 //top down approach
-//tc- o(n^2), sc-o(n)
+//tc- o(n^2), as each level we r finding height of tree below that level
+//sc-o(n)
 class Solution {
 public:
     bool isBalanced(TreeNode* root) {
