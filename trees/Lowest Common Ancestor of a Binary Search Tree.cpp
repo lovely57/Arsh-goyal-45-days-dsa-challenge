@@ -1,6 +1,6 @@
 //recursive
 //tc-o(h) as we r traversing in bst and not all nodes
-//sc- o(1)
+//sc- o(1) if not considering stack space else o(n)
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
