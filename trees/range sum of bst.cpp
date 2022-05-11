@@ -16,7 +16,7 @@ public:
     }
 };
 
-//using dfs/iterative 
+//using bfs/iterative 
 //tc- o(n)
 //sc- o(n)
 class Solution {
