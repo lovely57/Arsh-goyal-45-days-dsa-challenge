@@ -11,7 +11,7 @@ public:
         if(root){
             func(root->left, prev, ans);
             
-            if(prev!=INT_MIN){
+            if(prev!=INT_MAX){
                 ans = min(ans, abs(prev - root->val));
             }
             
